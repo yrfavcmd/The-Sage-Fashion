@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Sage Fashion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">✦ The Sage Fashion</div>
+        <div class="cart-icon" id="cartIconBtn">
+          <i class="fas fa-bag-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <section id="homeHero" class="fashion-hero">
+        <div class="fashion-content">
+          <h1>Welcome to The Sage Fashion.</h1>
+          <p>
+            Discover the perfect blend of elegance and modernity. <br />Where
+            aesthetic dreams weave into fabric.
+          </p>
+          <button class="btn-primary" id="fashionBookbtn">
+            Book an Appointment
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <section class="about-section">
+      <h2><i class="fas fa-feather-alt"></i> Our Story</h2>
+      <p>
+        The Sage Fashion was born from a desire to merge timeless craftsmanship
+        with contemporary vision. Every stitch tells a story of heritage,
+        sustainability, and the belief that clothing should empower the wearer.
+        We collaborate with artisans worldwide to bring you pieces that are both
+        ethical and extraordinary.
+      </p>
+    </section>
+
+    <!-- Eternal Collection Products Grid -->
+    <div class="container">
+      <h2 class="section-title">
+        <i class="fas fa-tshirt"></i> Eternal Collection
+      </h2>
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+
+    <!-- Sliding animation brands -->
+    <div class="container">
+      <div class="brands-section">
+        <div class="brands-title">
+          <i class="fas fa-star-of-life"></i> ICONIC HOUSES EDITION
+        </div>
+        <div class="slider-container">
+          <div class="brands-track" id="brandTrack"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart & Order Form region (centered, sleeker) -->
+    <div class="cart-order-wrapper">
+      <div class="cart-summary">
+        <div class="cart-title">
+          <i class="fas fa-shopping-cart"></i> Your bag
+        </div>
+        <div id="cartItemsContainer" class="cart-items-list">
+          <div class="empty-cart-msg">
+            Your cart feels minimal. Add some magic.
+          </div>
+        </div>
+        <div class="cart-total" id="cartTotalDisplay">$0.00</div>
+      </div>
+
+      <div class="order-form">
+        <div class="form-title">
+          <i class="fas fa-feather-alt"></i> Place order
+        </div>
+        <form id="orderForm">
+          <div class="form-group">
+            <input type="text" id="fullName" placeholder="Full name" required />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              placeholder="Email address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="address"
+              placeholder="Shipping address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              rows="2"
+              placeholder="Special notes (optional)"
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-order">✓ COMPLETE ORDER</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="founders-section">
+        <h2 class="section-title">
+          <i class="fas fa-crown"></i> The Visionaries
+        </h2>
+
+        <!-- My profile with image and social icons -->
+        <div class="founder-profile-highlight">
+          <img
+            src="images/Mine.jpg"
+            alt="Founder portrait"
+            class="founder-img"
+          />
+          <h3>˖❀˚ʚ𝓒.𝓜.𝓓ɞ˚❀˖</h3>
+          <p style="color: #7f6a58">Founder & Creative Director</p>
+          <div class="founder-social-icons">
+            <a href="https://www.instagram.com/yrfavcmd" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com/yrfavcmd" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/yrfavcmd" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/yrfavcmd" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+          <p style="margin-top: 15px; font-size: 0.9rem">
+            "Fashion is the armor to survive the reality of everyday life."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        © 2026 The Sage Fashion <br />
+        Where Heritage meets the Avant-Garde. <br />
+        Built with passion by ˖❀˚ʚ𝓒.𝓜.𝓓ɞ˚❀˖
+      </p>
+      <div class="footer-social">
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
+
+    <div class="scroll-btn-up" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="style.js"></script>
+  </body>
+</html>
