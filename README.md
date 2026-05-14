@@ -28,13 +28,18 @@ git clone https://github.com/yourusername/The-Sage-Fashion.git
 Open the project, double‑click index.html or use Live Server in VS Code.
 
 Replace placeholder assets
+
 Change the founder photo URL in the HTML (search founder-img).
+
 Update social media href links to your real profiles.
+
 Modify product images, prices, or names in the products array inside style.js.
+
 Adjust brand slider, edit brandsList array to add/remove brand names.
 
 
 📄 License
+
 MIT
 Free to use, modify, and learn from.
 
