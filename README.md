@@ -16,7 +16,7 @@ Google Fonts "Inter" font for modern typography.
 
 No external dependencies or build step; pure HTML/CSS/JS.
 
-🚀 Live Demo
+# 🚀Live Demo
 
 Not hosted yet but you can clone and open index.html in any modern browser.
 
@@ -24,7 +24,7 @@ Not hosted yet but you can clone and open index.html in any modern browser.
 Clone the repository
 
 bash
-git clone https://github.com/yrfavcmd/The-Sage-Fashion.git
+git clone https://github.com/yourusername/The-Sage-Fashion.git
 Open the project, double‑click index.html or use Live Server in VS Code.
 
 Replace placeholder assets
@@ -40,8 +40,6 @@ Free to use, modify, and learn from.
 
 👤 Author:
 ˖❀˚ʚ𝓒.𝓜.𝓓ɞ˚❀˖
-
-Founder & Developer
 
 If you find this helpful, consider giving it a star ⭐ on GitHub!
 Thank you!
