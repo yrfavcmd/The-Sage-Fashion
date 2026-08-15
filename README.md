@@ -3,7 +3,7 @@ A fully responsive, interactive fashion landing page with shopping cart, brand s
 
 
 
-🛠️ Tech Stack
+## Tech Stack
 
 HTML5	Semantic structure, forms, accessibility.
 
